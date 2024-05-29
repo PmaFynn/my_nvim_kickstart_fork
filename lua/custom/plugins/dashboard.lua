@@ -32,17 +32,17 @@ return {
           center = {
             {
               icon_hl = 'red',
-              desc = 'Find Files           ',
+              desc = 'Search Files           ',
               desc_hl = 'string',
-              key = '<leader> f f',
+              key = '<leader> s f',
               key_hl = 'number',
               key_format = ' %s', -- remove default surrounding `[]`
               action = 'lua print(2)',
             },
             {
-              desc = 'Find String',
+              desc = 'Search Grep',
               desc_hl = 'string',
-              key = '<leader> /',
+              key = '<leader> s g',
               key_hl = 'number',
               key_format = ' %s', -- remove default surrounding `[]`
               action = 'lua print(3)',
@@ -58,7 +58,7 @@ return {
             {
               desc = 'Find recently opened files',
               desc_hl = 'string',
-              key = '<leader> ?',
+              key = '<leader> s .',
               key_hl = 'number',
               key_format = ' %s', -- remove default surrounding `[]`
               action = 'lua print(3)',
@@ -66,7 +66,7 @@ return {
             {
               desc = 'Current buffer fuzzy search',
               desc_hl = 'string',
-              key = '<leader> s /',
+              key = '<leader> /',
               key_hl = 'number',
               key_format = ' %s', -- remove default surrounding `[]`
               action = 'lua print(3)',

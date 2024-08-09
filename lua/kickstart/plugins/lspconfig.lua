@@ -170,7 +170,16 @@ return {
         -- gopls = {},
         -- pyright = {},
         -- jdtls = {},
-        texlab = {},
+        texlab = {
+          settings = {
+            texlab = {
+              auxDirectory = './aux',
+              diagnostics = {
+                ignored = { 'undefined-reference' },
+              },
+            },
+          },
+        },
         -- bashls = {},
         rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs

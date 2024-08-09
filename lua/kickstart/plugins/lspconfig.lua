@@ -173,7 +173,7 @@ return {
         texlab = {
           settings = {
             texlab = {
-              auxDirectory = './aux',
+              auxDirectory = './aux/',
               diagnostics = {
                 ignored = { 'undefined-reference' },
               },

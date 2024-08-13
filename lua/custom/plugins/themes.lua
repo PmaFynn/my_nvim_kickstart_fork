@@ -1,7 +1,7 @@
 return {
-  { 'catppuccin/nvim', name = 'catppuccin', priority = 43 },
-  { 'rebelot/kanagawa.nvim', name = 'kanagawa', priority = 899 },
-  { 'rose-pine/neovim', name = 'rose-pine' },
-  { 'nyoom-engineering/oxocarbon.nvim', name = 'oxocarbon' },
-  { 'navarasu/onedark.nvim', name = 'onedark' },
+  { 'catppuccin/nvim', priority = 43 },
+  { 'rebelot/kanagawa.nvim', priority = 899 },
+  { 'rose-pine/neovim', priority = 839 },
+  { 'nyoom-engineering/oxocarbon.nvim', priority = 894 },
+  { 'navarasu/onedark.nvim', priority = 299 },
 }

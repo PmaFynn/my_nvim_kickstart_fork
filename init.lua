@@ -90,6 +90,19 @@ P.S. You can delete this when you're done too. It's your config now! :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+vim.g.dbs = {
+  ['recipes'] = 'postgresql://fynn@localhost:5432/recipes_db',
+  ['sales_ex'] = 'postgresql://fynn@localhost:5432/sales_exercises_db',
+  ['salesorders'] = 'postgresql://fynn@localhost:5432/salesorders_db',
+  ['salesorders_mod'] = 'postgresql://fynn@localhost:5432/salesordersmodify_db',
+  ['school'] = 'postgresql://fynn@localhost:5432/schoolscheduling_db',
+  ['school_mod'] = 'postgresql://fynn@localhost:5432/schoolschedulingmodify_db',
+  ['entertain'] = 'postgresql://fynn@localhost:5432/entertainmentagency_db',
+  ['entertain_mod'] = 'postgresql://fynn@localhost:5432/entertainmentagencymodify_db',
+  ['bowling'] = 'postgresql://fynn@localhost:5432/bowlingleague_db',
+  ['bowling_mod'] = 'postgresql://fynn@localhost:5432/bowlingleaguemodify_db',
+}
+
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 

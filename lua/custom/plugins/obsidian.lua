@@ -21,12 +21,12 @@ return {
     workspaces = {
       {
         name = 'personal',
-        path = '~/vaults/personal',
+        path = '~/personal_vault',
       },
-      {
-        name = 'work',
-        path = '~/vaults/work',
-      },
+      -- {
+      --   name = 'work',
+      --   path = '~/vaults/work',
+      -- },
     },
 
     -- see below for full list of options 👇
